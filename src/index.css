@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input, button, body {
+  font-size: 1rem;
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding: 0.6rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1280px) {
+  input, button, body {
+    font-size: 1.1rem;
+    font-family: Verdana, sans-serif;
+  }
+
+  input {
+    padding: 0.8rem;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1281px) {
+  input, button, body {
+    font-size: 1.25rem;
+    font-family: Verdana, sans-serif;
+  }
+
+  input {
+    padding: 1rem;
+  }
+}
+
+
